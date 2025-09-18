@@ -1,4 +1,4 @@
-package main.java.Notification;
+package Notification;
 
 import java.util.ArrayList;
 import java.util.TimerTask;

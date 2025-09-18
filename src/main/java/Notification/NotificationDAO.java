@@ -1,4 +1,4 @@
-package main.java.Notification;
+package Notification;
 
 import java.sql.*;
 import java.util.ArrayList;

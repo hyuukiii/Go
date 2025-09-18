@@ -12,21 +12,27 @@ public class ImageServlet extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 		String requestedFile = req.getPathInfo();
+
+		// null이거나 빈 경로일 때 default.jpg 반환
 		if (requestedFile == null || requestedFile.equals("/")) {
-			resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "파일명이 제공되지 않았습니다.");
-			return;
+			requestedFile = "/default.jpg";
 		}
 
 		File file = new File(IMAGE_DIR, requestedFile.substring(1));
-		
+
+		// 파일이 없으면 default.jpg 반환
 		if (!file.exists() || !file.isFile()) {
-			resp.sendError(HttpServletResponse.SC_NOT_FOUND, "이미지 파일이 존재하지 않습니다.");
-			return;
+			file = new File(getServletContext().getRealPath("/images/default.jpg"));
+			if (!file.exists()) {
+				resp.sendError(HttpServletResponse.SC_NOT_FOUND);
+				return;
+			}
 		}
 
 		String mimeType = getServletContext().getMimeType(file.getName());
-		if (mimeType == null)
+		if (mimeType == null) {
 			mimeType = "application/octet-stream";
+		}
 
 		resp.setContentType(mimeType);
 		Files.copy(file.toPath(), resp.getOutputStream());

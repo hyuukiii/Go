@@ -17,7 +17,7 @@ public class SearchDAO {
 	public Connection getConnection() {
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
-			String url = "jdbc:oracle:thin:@localhost:1521:testdb";
+			String url = "jdbc:oracle:thin:@localhost:1521:xe";
 			String user = "scott";
 			String password = "tiger";
 			conn = DriverManager.getConnection(url, user, password);
@@ -27,8 +27,8 @@ public class SearchDAO {
 		return conn;
 	}
 
-	public ArrayList<ProductDTO> searchProducts(String keyword, String category, String price, String status,
-			String sort, int page, int itemsPerPage) {
+	public ArrayList<main.java.Product.ProductDTO> searchProducts(String keyword, String category, String price, String status,
+																  String sort, int page, int itemsPerPage) {
 		ArrayList<ProductDTO> searchResults = new ArrayList<>();
 
 		try {

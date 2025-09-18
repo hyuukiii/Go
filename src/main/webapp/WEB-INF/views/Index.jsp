@@ -1,7 +1,7 @@
 <%@page import="java.text.NumberFormat"%>
 <%@page import="BidsTransaction.BidDAO"%>
 <%@page import="java.util.ArrayList"%>
-<%@page import="main.java.Product.ProductDTO"%>
+<%@page import="Product.ProductDTO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 

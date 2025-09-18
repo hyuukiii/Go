@@ -1,4 +1,4 @@
-package LoginSignupLogout;
+package main.java.LoginSignupLogout;
 
 import java.sql.*;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package LoginSignupLogout;
+package main.java.LoginSignupLogout;
 
 import java.io.IOException;
 import java.io.PrintWriter;

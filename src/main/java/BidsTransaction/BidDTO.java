@@ -1,4 +1,4 @@
-package BidsTransaction;
+package main.java.BidsTransaction;
 
 
 import java.sql.Timestamp;

@@ -1,4 +1,4 @@
-package Notification;
+package main.java.Notification;
 
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;

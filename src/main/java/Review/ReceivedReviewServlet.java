@@ -1,4 +1,4 @@
-package Review;
+package main.java.Review;
 
 import java.io.IOException;
 import java.util.List;

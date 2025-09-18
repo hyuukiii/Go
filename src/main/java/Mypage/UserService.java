@@ -1,4 +1,4 @@
-package Mypage;
+package main.java.Mypage;
 
 import User.UserDAO;
 import User.UserDTO;

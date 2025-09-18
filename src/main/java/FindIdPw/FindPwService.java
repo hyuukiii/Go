@@ -1,4 +1,4 @@
-package FindIdPw;
+package main.java.FindIdPw;
 
 public class FindPwService {
 	public String findPassword(FindPwDTO dto) {

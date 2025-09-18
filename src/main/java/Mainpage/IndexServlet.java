@@ -1,4 +1,4 @@
-package Mainpage;
+package main.java.Mainpage;
 
 import java.io.IOException;
 import java.util.ArrayList;

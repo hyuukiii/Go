@@ -1,4 +1,4 @@
-package Ranking;
+package main.java.Ranking;
 
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;

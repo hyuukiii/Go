@@ -1,4 +1,6 @@
-package Search;
+package main.java.Search;
+
+import main.java.Product.ProductDTO;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -9,7 +11,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import Product.ProductDTO;
 
 @WebServlet("/search")
 public class SearchServlet extends HttpServlet {

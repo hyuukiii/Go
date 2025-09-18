@@ -1,4 +1,4 @@
-package Ranking;
+package main.java.Ranking;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -6,15 +6,10 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.Date;
+
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Random;
 
-// JNDI 관련 임포트 제거
-// import javax.naming.Context;
-// import javax.naming.InitialContext;
-// import javax.sql.DataSource;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;

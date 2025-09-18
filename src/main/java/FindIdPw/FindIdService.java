@@ -1,4 +1,4 @@
-package FindIdPw;
+package main.java.FindIdPw;
 
 public class FindIdService {
 	public String findId(FindIdDTO dto) {

@@ -1,4 +1,4 @@
-package FindIdPw;
+package main.java.FindIdPw;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

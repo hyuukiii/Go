@@ -1,4 +1,4 @@
-package Product;
+package main.java.Product;
 
 
 public class CategoryDTO {

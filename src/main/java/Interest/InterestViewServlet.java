@@ -1,4 +1,4 @@
-package Interest;
+package main.java.Interest;
 
 import java.io.IOException;
 import java.util.ArrayList;

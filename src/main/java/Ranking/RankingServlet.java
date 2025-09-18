@@ -1,4 +1,4 @@
-package Ranking;
+package main.java.Ranking;
 
 import java.io.IOException;
 import java.io.PrintWriter;

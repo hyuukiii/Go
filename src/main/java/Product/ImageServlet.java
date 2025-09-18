@@ -1,4 +1,4 @@
-package main.java.Product;
+package Product;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;

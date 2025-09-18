@@ -1,4 +1,6 @@
-package main.java.Product;
+package Product;
+
+import Product.CategoryDAO;
 
 import java.io.File;
 import java.io.IOException;

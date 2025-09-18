@@ -1,4 +1,4 @@
-package main.java.BidsTransaction;
+package BidsTransaction;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

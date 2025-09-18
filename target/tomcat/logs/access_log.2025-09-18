@@ -1,9 +1,0 @@
-0:0:0:0:0:0:0:1 - - [18/Sep/2025:17:19:50 +0900] "GET /index HTTP/1.1" 200 44707 http-bio-8080-exec-1 1371
-0:0:0:0:0:0:0:1 - - [18/Sep/2025:17:19:51 +0900] "GET /product/rankings?type=views&limit=10 HTTP/1.1" 200 12 http-bio-8080-exec-2 387
-0:0:0:0:0:0:0:1 - - [18/Sep/2025:17:19:52 +0900] "GET /login HTTP/1.1" 200 11541 http-bio-8080-exec-3 63
-0:0:0:0:0:0:0:1 - - [18/Sep/2025:17:19:56 +0900] "POST /login HTTP/1.1" 302 - http-bio-8080-exec-5 443
-0:0:0:0:0:0:0:1 - - [18/Sep/2025:17:19:57 +0900] "GET /index HTTP/1.1" 200 45270 http-bio-8080-exec-6 1267
-0:0:0:0:0:0:0:1 - - [18/Sep/2025:17:19:58 +0900] "GET /product/rankings?type=views&limit=10 HTTP/1.1" 200 12 http-bio-8080-exec-7 338
-0:0:0:0:0:0:0:1 - - [18/Sep/2025:17:20:02 +0900] "GET /mypage HTTP/1.1" 200 3306 http-bio-8080-exec-9 1324
-0:0:0:0:0:0:0:1 - - [18/Sep/2025:17:20:02 +0900] "GET /images/default.jpg HTTP/1.1" 404 1041 http-bio-8080-exec-10 3
-0:0:0:0:0:0:0:1 - - [18/Sep/2025:17:20:04 +0900] "GET /registerproduct HTTP/1.1" 200 5489 http-bio-8080-exec-2 492

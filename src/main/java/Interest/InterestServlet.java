@@ -1,4 +1,4 @@
-package main.java.Interest;
+package Interest;
 
 import java.io.IOException;
 

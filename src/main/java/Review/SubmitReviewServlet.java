@@ -1,4 +1,4 @@
-package main.java.Review;
+package Review;
 
 
 import java.io.IOException;
@@ -6,7 +6,7 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 
-import main.java.User.UserDAO;
+import User.UserDAO;
 
 @WebServlet("/submitreview")
 public class SubmitReviewServlet extends HttpServlet {

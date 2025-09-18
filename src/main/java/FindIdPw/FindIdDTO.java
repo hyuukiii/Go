@@ -1,4 +1,4 @@
-package main.java.FindIdPw;
+package FindIdPw;
 
 public class FindIdDTO {
 	String username;

@@ -1,4 +1,4 @@
-package main.java.LoginSignupLogout;
+package LoginSignupLogout;
 
 
 import java.io.IOException;

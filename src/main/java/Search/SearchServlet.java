@@ -1,7 +1,7 @@
-package main.java.Search;
+package Search;
 
 
-import main.java.Product.ProductDTO;
+import Product.ProductDTO;
 
 import java.io.IOException;
 import java.util.ArrayList;

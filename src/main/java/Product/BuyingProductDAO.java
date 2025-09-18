@@ -1,4 +1,4 @@
-package main.java.Product;
+package Product;
 
 import java.awt.List;
 import java.sql.Connection;

@@ -1,8 +1,8 @@
-package main.java.Interest;
+package Interest;
 
 import java.util.ArrayList;
 
-import main.java.Product.ProductDTO;
+import Product.ProductDTO;
 
 public class InterestService {
 

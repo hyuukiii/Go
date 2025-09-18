@@ -1,4 +1,4 @@
-package main.java.Interest;
+package Interest;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import main.java.Product.ProductDTO;
+import Product.ProductDTO;
 
 @WebServlet("/viewInterest")
 public class InterestViewServlet extends HttpServlet {

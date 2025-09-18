@@ -1,4 +1,4 @@
-package main.java.Ranking;
+package Ranking;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -14,7 +14,7 @@ import java.util.Map;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
-import main.java.Product.ProductDTO;
+import Product.ProductDTO;
 
 public class ProductRankingDAO {
 	private Connection conn;

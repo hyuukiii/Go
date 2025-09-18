@@ -1,4 +1,4 @@
-package main.java.Review;
+package Review;
 
 
 import java.io.IOException;
@@ -7,8 +7,8 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 
-import main.java.BidsTransaction.BidDAO;
-import main.java.Product.ProductDTO;
+import BidsTransaction.BidDAO;
+import Product.ProductDTO;
 
 @WebServlet("/reviewlist")
 public class ReviewListServlet extends HttpServlet {

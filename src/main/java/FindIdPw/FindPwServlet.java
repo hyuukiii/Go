@@ -1,4 +1,4 @@
-package main.java.FindIdPw;
+package FindIdPw;
 
 //이름, 이메일, 전화번호, 아이디가 맞으면 아이디 출력
 import java.io.IOException;

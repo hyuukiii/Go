@@ -1,4 +1,4 @@
-package main.java.LoginSignupLogout;
+package LoginSignupLogout;
 
 import java.io.File;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 
-import main.java.User.UserDTO;
+import User.UserDTO;
 
 import javax.servlet.annotation.MultipartConfig;
 

@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import main.java.Product.ProductDTO;
+import Product.ProductDTO;
 
 public class BidDAO {
 

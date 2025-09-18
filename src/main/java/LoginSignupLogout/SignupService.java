@@ -1,6 +1,6 @@
-package main.java.LoginSignupLogout;
+package LoginSignupLogout;
 
-import main.java.User.UserDTO;
+import User.UserDTO;
 
 public class SignupService {
 	SignupDAO dao = new SignupDAO();

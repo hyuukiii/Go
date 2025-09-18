@@ -1,4 +1,4 @@
-package main.java.Mypage;
+package Mypage;
 
 import java.io.IOException;
 
@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import main.java.User.UserDTO;
+import User.UserDTO;
 
 @WebServlet("/profileManager")
 public class UserUpdateServlet extends HttpServlet {

@@ -1,4 +1,4 @@
-package main.java.Review;
+package Review;
 
 
 import java.io.IOException;
@@ -6,8 +6,8 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 
-import main.java.Product.BuyingProductDAO;
-import main.java.Product.ProductDTO;
+import Product.BuyingProductDAO;
+import Product.ProductDTO;
 
 @WebServlet("/reviewform")
 public class ReviewFormServlet extends HttpServlet {

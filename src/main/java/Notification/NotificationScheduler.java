@@ -3,8 +3,8 @@ package Notification;
 import java.util.ArrayList;
 import java.util.TimerTask;
 
-import main.java.Product.BuyingProductDAO;
-import main.java.Product.ProductDTO;
+import Product.BuyingProductDAO;
+import Product.ProductDTO;
 
 import java.util.Timer;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package main.java.Search;
+package Search;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import main.java.Product.ProductDTO;
+import Product.ProductDTO;
 
 public class SearchDAO {
 	private Connection conn;
@@ -27,7 +27,7 @@ public class SearchDAO {
 		return conn;
 	}
 
-	public ArrayList<main.java.Product.ProductDTO> searchProducts(String keyword, String category, String price, String status,
+	public ArrayList<ProductDTO> searchProducts(String keyword, String category, String price, String status,
 																  String sort, int page, int itemsPerPage) {
 		ArrayList<ProductDTO> searchResults = new ArrayList<>();
 

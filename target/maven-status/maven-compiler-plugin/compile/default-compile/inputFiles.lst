@@ -1,6 +1,7 @@
 /Users/hyunki/Go/src/main/java/Mypage/UserService.java
 /Users/hyunki/Go/src/main/java/Product/ImageDTO.java
 /Users/hyunki/Go/src/main/java/Ranking/ProductRankingDAO.java
+/Users/hyunki/Go/src/main/java/Product/CategoryDAO.java
 /Users/hyunki/Go/src/main/java/User/UserDAO.java
 /Users/hyunki/Go/src/main/java/Review/SubmitReviewServlet.java
 /Users/hyunki/Go/src/main/java/LoginSignupLogout/SignupServlet.java
@@ -17,11 +18,11 @@
 /Users/hyunki/Go/src/main/java/LoginSignupLogout/SignupDAO.java
 /Users/hyunki/Go/src/main/java/Product/BuyingProductService.java
 /Users/hyunki/Go/src/main/java/LoginSignupLogout/LogoutServlet.java
-/Users/hyunki/Go/src/main/java/main/java/Mypage/UserInfoServlet.java
 /Users/hyunki/Go/src/main/java/Search/SearchServlet.java
 /Users/hyunki/Go/src/main/java/Mypage/UserUpdateServlet.java
 /Users/hyunki/Go/src/main/java/Ranking/RankingServlet.java
 /Users/hyunki/Go/src/main/java/Product/DeleteProductServlet.java
+/Users/hyunki/Go/src/main/java/Mypage/UserInfoServlet.java
 /Users/hyunki/Go/src/main/java/FindIdPw/FindIdService.java
 /Users/hyunki/Go/src/main/java/Ranking/ProductRankingServlet.java
 /Users/hyunki/Go/src/main/java/Search/SearchDAO.java
@@ -29,6 +30,7 @@
 /Users/hyunki/Go/src/main/java/Notification/NotificationScheduler.java
 /Users/hyunki/Go/src/main/java/FindIdPw/FindIdServlet.java
 /Users/hyunki/Go/src/main/java/Product/ProductDTO.java
+/Users/hyunki/Go/src/main/java/Mypage/MypageDAO.java
 /Users/hyunki/Go/src/main/java/Notification/MarkAllNotificationsAsReadServlet.java
 /Users/hyunki/Go/src/main/java/Product/ImageServlet.java
 /Users/hyunki/Go/src/main/java/Product/BuyingProductServlet.java
@@ -42,8 +44,6 @@
 /Users/hyunki/Go/src/main/java/FindIdPw/FindPwDAO.java
 /Users/hyunki/Go/src/main/java/Review/ReviewDAO.java
 /Users/hyunki/Go/src/main/java/Review/ReceivedReviewServlet.java
-/Users/hyunki/Go/src/main/java/main/java/Product/CategoryDAO.java
-/Users/hyunki/Go/src/main/java/main/java/Mypage/MypageDAO.java
 /Users/hyunki/Go/src/main/java/Mypage/ProfileDeleteServlet.java
 /Users/hyunki/Go/src/main/java/User/UserDTO.java
 /Users/hyunki/Go/src/main/java/Notification/ViewProductServlet.java

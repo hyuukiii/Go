@@ -1,4 +1,4 @@
-package main.java.Ranking;
+package Ranking;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -12,7 +12,7 @@ import javax.servlet.http.HttpSession;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
-import main.java.Product.FavoriteDAO;
+import Product.FavoriteDAO;
 
 @WebServlet("/product/rankings")
 public class ProductRankingServlet extends HttpServlet {

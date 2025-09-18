@@ -1,7 +1,7 @@
-package main.java.Mypage;
+package Mypage;
 
-import main.java.User.UserDAO;
-import main.java.User.UserDTO;
+import User.UserDAO;
+import User.UserDTO;
 
 public class UserService {
 

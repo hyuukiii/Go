@@ -1,4 +1,4 @@
-package main.java.Product;
+package Product;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -10,8 +10,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import main.java.BidsTransaction.BidDAO;
-import main.java.BidsTransaction.BidDTO;
+import BidsTransaction.BidDAO;
+import BidsTransaction.BidDTO;
 
 @WebServlet("/buyingproduct")
 public class BuyingProductServlet extends HttpServlet {

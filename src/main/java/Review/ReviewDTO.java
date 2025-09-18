@@ -1,4 +1,4 @@
-package main.java.Review;
+package Review;
 
 
 import java.util.Date;

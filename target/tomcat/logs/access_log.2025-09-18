@@ -26,3 +26,17 @@
 0:0:0:0:0:0:0:1 - - [18/Sep/2025:16:37:12 +0900] "GET /index? HTTP/1.1" 200 45270 http-bio-8080-exec-3 1207
 0:0:0:0:0:0:0:1 - - [18/Sep/2025:16:37:13 +0900] "GET /product/rankings?type=views&limit=10 HTTP/1.1" 200 12 http-bio-8080-exec-3 249
 0:0:0:0:0:0:0:1 - - [18/Sep/2025:16:37:28 +0900] "GET /mypage HTTP/1.1" 500 3436 http-bio-8080-exec-2 1174
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:16:38:21 +0900] "GET /index HTTP/1.1" 200 45270 http-bio-8080-exec-6 1215
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:16:38:21 +0900] "GET /product/rankings?type=views&limit=10 HTTP/1.1" 200 12 http-bio-8080-exec-6 224
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:16:38:28 +0900] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1047 http-bio-8080-exec-7 12
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:16:38:51 +0900] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1047 http-bio-8080-exec-1 18
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:16:39:16 +0900] "GET /receivedreviews HTTP/1.1" 200 3593 http-bio-8080-exec-5 463
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:16:39:19 +0900] "GET /index HTTP/1.1" 200 45270 http-bio-8080-exec-5 1171
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:16:39:19 +0900] "GET /product/rankings?type=views&limit=10 HTTP/1.1" 200 12 http-bio-8080-exec-5 233
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:16:39:22 +0900] "GET /mypage HTTP/1.1" 500 3436 http-bio-8080-exec-5 1271
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:16:48:13 +0900] "GET /index HTTP/1.1" 200 45270 http-bio-8080-exec-1 1614
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:16:48:14 +0900] "GET /product/rankings?type=views&limit=10 HTTP/1.1" 200 12 http-bio-8080-exec-2 242
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:16:48:17 +0900] "GET /mypage HTTP/1.1" 200 3306 http-bio-8080-exec-3 1265
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:16:48:17 +0900] "GET /css/mypage.css HTTP/1.1" 200 2646 http-bio-8080-exec-4 2
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:16:48:17 +0900] "GET /images/default.jpg HTTP/1.1" 404 1041 http-bio-8080-exec-5 5
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:16:48:21 +0900] "GET /registerproduct HTTP/1.1" 200 5052 http-bio-8080-exec-7 418

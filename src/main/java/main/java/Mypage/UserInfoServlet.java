@@ -1,7 +1,6 @@
 package main.java.Mypage;
 
 import java.io.IOException;
-import java.util.ArrayList;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -27,7 +26,7 @@ public class UserInfoServlet extends HttpServlet {
 			return;
 		}
 
-		UserService s = new UserService();
+		main.java.Mypage.UserService s = new main.java.Mypage.UserService();
 		UserDTO user = s.getUserInfo(user_id);
 
 		UserDAO userDao = new UserDAO();

@@ -9,9 +9,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import BidsTransaction.BidDAO;
-import Product.BuyingProductService;
-import Product.ProductDTO;
+import main.java.BidsTransaction.BidDAO;
+import main.java.Product.BuyingProductService;
+import main.java.Product.ProductDTO;
 
 @WebServlet("/index")
 public class IndexServlet extends HttpServlet {

@@ -6,8 +6,8 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 
-import Product.BuyingProductDAO;
-import Product.ProductDTO;
+import main.java.Product.BuyingProductDAO;
+import main.java.Product.ProductDTO;
 
 @WebServlet("/reviewform")
 public class ReviewFormServlet extends HttpServlet {

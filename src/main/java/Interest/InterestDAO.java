@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import Product.ProductDTO;
+import main.java.Product.ProductDTO;
 
 public class InterestDAO {
 

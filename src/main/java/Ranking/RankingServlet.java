@@ -14,7 +14,7 @@ import javax.servlet.http.HttpSession;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
-import Product.ProductDTO;
+import main.java.Product.ProductDTO;
 
 @WebServlet("/api/rankings")
 public class RankingServlet extends HttpServlet {

@@ -10,7 +10,7 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 
-import User.UserDTO;
+import main.java.User.UserDTO;
 
 import javax.servlet.annotation.MultipartConfig;
 

@@ -6,7 +6,7 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 
-import User.UserDAO;
+import main.java.User.UserDAO;
 
 @WebServlet("/submitreview")
 public class SubmitReviewServlet extends HttpServlet {

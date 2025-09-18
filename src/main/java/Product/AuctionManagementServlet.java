@@ -8,9 +8,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import BidsTransaction.BidDAO;
-import BidsTransaction.BidDTO;
-import Notification.NotificationDAO;
+import main.java.BidsTransaction.BidDAO;
+import main.java.BidsTransaction.BidDTO;
+import main.java.Notification.NotificationDAO;
 
 import java.io.PrintWriter;
 import java.util.ArrayList;

@@ -2,7 +2,7 @@ package main.java.Interest;
 
 import java.util.ArrayList;
 
-import Product.ProductDTO;
+import main.java.Product.ProductDTO;
 
 public class InterestService {
 

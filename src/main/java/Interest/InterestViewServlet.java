@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import Product.ProductDTO;
+import main.java.Product.ProductDTO;
 
 @WebServlet("/viewInterest")
 public class InterestViewServlet extends HttpServlet {

@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import Product.BuyingProductDAO;
+import main.java.Product.BuyingProductDAO;
 
 @WebServlet("/login")
 public class LoginServlet extends HttpServlet {

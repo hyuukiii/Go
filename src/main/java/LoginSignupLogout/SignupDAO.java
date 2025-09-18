@@ -2,7 +2,7 @@ package main.java.LoginSignupLogout;
 
 import java.sql.*;
 import java.util.Date;
-import User.UserDTO;
+import main.java.User.UserDTO;
 
 public class SignupDAO {
 	String driver = "oracle.jdbc.driver.OracleDriver";

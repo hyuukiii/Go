@@ -1884,27 +1884,29 @@ String statusMessage = (String) request.getAttribute("statusMessage");
 	}
 </script>
 
-<%!// 카테고리 ID를 카테고리 코드로 변환하는 헬퍼 메서드
-	private String getCategoryCode(String categoryId) {
-		if (categoryId == null)
-			return "all";
+<%!
+    // 카테고리 ID를 카테고리 코드로 변환하는 헬퍼 메서드
+    private String getCategoryCode(String categoryId) {
+        if (categoryId == null || categoryId.isEmpty()) {
+            return "all";
+        }
 
-		// 카테고리 ID 형식에 따라 적절히 매핑
-		switch (categoryId) {
-		case "1":
-			return "electronics"; // 전자기기
-		case "2":
-			return "fashion"; // 패션
-		case "3":
-			return "beauty"; // 뷰티/미용
-		case "4":
-			return "sports"; // 스포츠/레저
-		case "5":
-			return "books"; // 도서
-		case "6":
-			return "appliances"; // 가전제품
-		default:
-			return "all";
-		}
-	}%>
+        // if-else로 변경 (Java 6 호환)
+        if ("1".equals(categoryId)) {
+            return "electronics"; // 전자기기
+        } else if ("2".equals(categoryId)) {
+            return "fashion"; // 패션
+        } else if ("3".equals(categoryId)) {
+            return "beauty"; // 뷰티/미용
+        } else if ("4".equals(categoryId)) {
+            return "sports"; // 스포츠/레저
+        } else if ("5".equals(categoryId)) {
+            return "books"; // 도서
+        } else if ("6".equals(categoryId)) {
+            return "appliances"; // 가전제품
+        } else {
+            return "all";
+        }
+    }
+%>
 </html>

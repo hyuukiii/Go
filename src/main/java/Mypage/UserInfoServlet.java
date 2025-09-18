@@ -10,8 +10,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import User.UserDAO;
-import User.UserDTO;
+import main.java.User.UserDAO;
+import main.java.User.UserDTO;
 
 @WebServlet("/mypage")
 public class UserInfoServlet extends HttpServlet {

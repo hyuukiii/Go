@@ -10,8 +10,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import BidsTransaction.BidDAO;
-import BidsTransaction.BidDTO;
+import main.java.BidsTransaction.BidDAO;
+import main.java.BidsTransaction.BidDTO;
 
 @WebServlet("/buyingproduct")
 public class BuyingProductServlet extends HttpServlet {

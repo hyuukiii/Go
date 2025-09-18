@@ -12,7 +12,7 @@ import javax.servlet.http.HttpSession;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
-import Product.FavoriteDAO;
+import main.java.Product.FavoriteDAO;
 
 @WebServlet("/product/rankings")
 public class ProductRankingServlet extends HttpServlet {

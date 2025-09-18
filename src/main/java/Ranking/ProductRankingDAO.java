@@ -14,7 +14,7 @@ import java.util.Map;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
-import Product.ProductDTO;
+import main.java.Product.ProductDTO;
 
 public class ProductRankingDAO {
 	private Connection conn;

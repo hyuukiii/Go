@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import User.UserDTO;
+import main.java.User.UserDTO;
 
 @WebServlet("/profileManager")
 public class UserUpdateServlet extends HttpServlet {

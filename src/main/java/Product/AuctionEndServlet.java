@@ -13,10 +13,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import BidsTransaction.BidDAO;
-import BidsTransaction.BidDTO;
-import BidsTransaction.TransactionDAO;
-import Notification.NotificationDAO;
+import main.java.BidsTransaction.BidDAO;
+import main.java.BidsTransaction.BidDTO;
+import main.java.BidsTransaction.TransactionDAO;
+import main.java.Notification.NotificationDAO;
 
 @WebServlet("/auctionend")
 public class AuctionEndServlet extends HttpServlet {

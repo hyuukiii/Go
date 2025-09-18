@@ -7,8 +7,8 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 
-import BidsTransaction.BidDAO;
-import Product.ProductDTO;
+import main.java.BidsTransaction.BidDAO;
+import main.java.Product.ProductDTO;
 
 @WebServlet("/reviewlist")
 public class ReviewListServlet extends HttpServlet {

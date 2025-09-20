@@ -25,6 +25,11 @@ public class RegisterProductServlet extends HttpServlet {
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+		req.setCharacterEncoding("UTF-8");
+		resp.setContentType("text/html; charset=UTF-8");
+		resp.setCharacterEncoding("UTF-8");
+
 		// 카테고리 목록을 가져옴
 		CategoryDAO categoryDAO = new CategoryDAO();
 		ArrayList<CategoryDTO> categories = categoryDAO.getAllCategories();
